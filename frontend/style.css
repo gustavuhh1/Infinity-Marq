@@ -9,8 +9,8 @@ body{
 }
 
 .wht{
-    width: 50rem;
-    height: 50rem;
+    width: 42rem;
+    height: 35rem;
     background-color: #EEEEEE;
     border-radius: 8px;
     display: flex;
@@ -32,8 +32,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-bottom: 2%;
-    padding-top: 1%;
+    margin-top: 7%;
 }
 .logo_img{
 width: 100%;
@@ -50,12 +49,12 @@ height: auto;
     padding-bottom: 20%;
 }
 label{
-    font-size: 1.85rem;
+    font-size: 1.65rem;
     color: #EEEEEE
 }
 input{
     width: 40%;
-    height: 2rem;
+    height: 1.7rem;
     border-radius: 7px;
     background-color:#EEEEEE;
     text-align: center;
@@ -66,7 +65,8 @@ button {
     border-radius: 5px;
     border: none;
     color: white;
-    padding: 15px 32px;
+    width: 5rem;
+    height: 2.5rem;
     text-align: center;
     display: inline-block;
     font-size: 1.15rem;
