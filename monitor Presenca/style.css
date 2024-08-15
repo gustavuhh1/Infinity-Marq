@@ -1,4 +1,5 @@
 body {
+    user-select: none;
     background-color: rgb(28, 25, 25);
     width: auto;
     height: 100%;
@@ -33,14 +34,14 @@ body {
     height: auto;
 }
 
-.beleza{
+.beleza {
     display: flex;
-    width:75%;
+    width: 75%;
     height: 0.1%;
     background-color: #EEEEEE;
 }
 
-.apresentacao{
+.apresentacao {
     font-family: Arial, Helvetica, sans-serif;
     color: #EEEEEE;
     font-size: 2.24rem;
@@ -49,17 +50,17 @@ body {
 
 .interativo {
     width: 75%;
-    height: 50%;
+    height: 40%;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
 
-.interIn{
+.interIn {
     display: flex;
     width: 100%;
-    height:33%;
+    height: 30%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -67,7 +68,7 @@ body {
     padding: 10px;
 }
 
-.interIn select{
+.interIn select {
     cursor: pointer;
     width: 40%;
     padding: 5px;
