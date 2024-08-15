@@ -1,0 +1,150 @@
+body {
+    background-color: rgb(28, 25, 25);
+    width: auto;
+    height: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.principal {
+    width: 40rem;
+    height: 45rem;
+    background-color: rgb(41, 41, 41);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.5);
+}
+
+
+.beleza {
+    display: flex;
+    width: 85%;
+    height: 0.1%;
+    background-color: #EEEEEE;
+}
+
+.apresentacao {
+    margin-top: 7%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #EEEEEE;
+    font-size: 2.24rem;
+    padding: 5%;
+}
+
+.interativo {
+    width: 80%;
+    height: 75%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.botoes {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.botao {
+    background-color: rgb(28, 25, 25);
+    border-radius: 5px;
+    border: none;
+    color: white;
+    width: 40%;
+    height: 2.5rem;
+    text-align: center;
+    font-size: 1.15rem;
+    transition: 0.3s;
+}
+
+#voltar:hover {
+    background-color: #f1f1f1;
+    color: red;
+    border-radius: 8px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+#geralPresente:hover {
+    background-color: rgba(22, 255, 18, 0.74);
+    color: #000000;
+    border-radius: 8px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.alunosWindow {
+    width: 100%;
+    height: 40vh;
+    background-color: coral;
+    overflow-y: auto;
+    scrollbar-width: thin;
+    display: flex;
+    flex-flow: column;
+    gap: 5px;
+}
+
+.alunosLegenda {
+    width: 100%;
+    height: 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 4.5% 0 3%;
+    background-color: rgb(155, 41, 41);
+    font-family: Arial, Helvetica, sans-serif;
+    color: #EEEEEE;
+}
+
+.alunoWindow {
+    width: 100%;
+    height: 23%;
+    max-height: 25%;
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+}
+
+.alunoHUD{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.alunoName {
+    width: 80%;
+    height: 100%;
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+    padding-left: 5%;
+}
+
+.alunoObs {
+    height: 100%;
+    width: 20%;
+    background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.alunoObs button {
+    border: none;
+    border-radius: 5px;
+    width: 18px;
+    height: 18px;
+}
+
+.alunoTxT{
+    width: 100%;
+    height: 35%;
+    background-color: darkgreen;
+}
