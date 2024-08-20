@@ -37,7 +37,7 @@ body {
 }
 
 .interativo {
-    width: 80%;
+    width: 32.5rem;
     height: 75%;
     display: flex;
     justify-content: center;
@@ -82,9 +82,9 @@ body {
 }
 
 .alunosInterface {
-    width: 100%;
-    height: 50vh;
-    background-color: rgba(28, 25, 25, 0.5);
+    width: 32rem;
+    height: 25rem;
+    background-color: rgba(255, 0, 0, 0.5);
     display: flex;
     flex-flow: column;
     overflow-y: scroll;
@@ -92,12 +92,12 @@ body {
 }
 
 .alunosLegenda {
-    width: 100%;
-    height: 10%;
+    width: 32rem;
+    height: 10rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1.75% 1.5% 1% 3%;
+    padding: 0;
     font-family: Arial, Helvetica, sans-serif;
     color: #EEEEEE;
     background-color: rgb(155, 41, 41);
