@@ -1,5 +1,7 @@
-const presenca = document.getElementsByClassName('alunoHUD')
+const presencaCor = document.querySelector('.alunoHUD')
 
-presenca.addEventListener('click', () =>{
-    alert('oii')
+presencaCor.addEventListener('click', () =>{
+    console.log(presencaCor )    
+    presencaCor.classList.toggle('ok')
+
 })

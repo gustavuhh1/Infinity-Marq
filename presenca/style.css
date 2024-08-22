@@ -84,23 +84,31 @@ body {
 .alunosInterface {
     width: 32rem;
     height: 25rem;
-    background-color: rgba(255, 0, 0, 0.5);
+    background-color: rgba(53, 45, 45, 0.5);
     display: flex;
     flex-flow: column;
+}
+
+.lista{
     overflow-y: scroll;
+    overflow-x: hidden;
+    width: auto;
+    height: 100%;
     scrollbar-width: thin;
 }
 
 .alunosLegenda {
-    width: 32rem;
-    height: 10rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0;
+    padding: 8px 8px ;
     font-family: Arial, Helvetica, sans-serif;
     color: #EEEEEE;
     background-color: rgb(155, 41, 41);
+}
+
+.ok  {
+    background-color: #3bff9d;
 }
 
 .alunoIndiv {
@@ -119,6 +127,7 @@ body {
     display: flex;
     color: #EEEEEE;
     justify-content: center;
+    cursor: pointer;
 }
 
 .alunoName {
@@ -164,4 +173,25 @@ body {
 .listaAlunos{
     list-style: none;
     padding: 0;
+}
+
+#relatorio{
+    margin-top: 2.5%;
+    width: 90%;
+    padding: 10px;
+    background-color: rgb(28, 25, 25);
+    border-radius: 5px;
+    border: none;
+    color: white;
+    text-align: center;
+    font-size: 1.15rem;
+    transition: 0.3s;
+}
+
+#relatorio:hover {
+    background-color: rgb(241, 227, 21);
+    color: rgb(0, 0, 0);
+    border-radius: 8px;
+    transition: 0.3s;
+    cursor: pointer;
 }
